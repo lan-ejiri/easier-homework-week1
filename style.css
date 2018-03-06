@@ -1,0 +1,84 @@
+
+
+/* Dear Franklin, (or whoever is grading/checking this)
+some of my margin/padding/container dimensions are pretty sketchy
+so this code would probably break if i had to add more things onto it
+but thankfully for this assingnment i do not, 
+so 
+hopefully this is ok! */
+
+
+body{
+        background-color: #777;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:#777; 
+        text-align: center;
+    }
+
+    header {
+        width: 960px;
+        background: #ebebeb;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        width: 960px;
+        background: #ebebeb;
+        padding: 30px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        width: 1020px;
+        margin: 0 auto;
+        overflow: auto;    
+    }
+
+    aside {
+        float: right;
+        width: 43%;
+        padding: 30px;
+        height: 230px;
+        background-color: #ebebeb;
+    }
+
+    section{
+        float: left;
+        width: 495px; 
+        background-color: #ebebeb;
+        padding: 20px 5px 5px 5px;
+        height: 260 px;
+    }
+
+    article {
+        margin: auto;
+        padding: 1px;
+        margin: 40px 6px 6px 6px;
+        background-color: #777;
+        color: #ebebeb;
+    }
+
+    .headings,.paragraph{ 
+        background-color: #ebebeb;
+        padding: 4px;
+        margin: 12px 10px 7px 10px;
+        color: #777;
+    }
+
+
+    footer {
+        width: 960px;
+        background: #ebebeb;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        clear: both;
+
+    }
